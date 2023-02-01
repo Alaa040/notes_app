@@ -10,7 +10,7 @@ class NotesListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      padding: const EdgeInsets.only(top: 0),
+      padding: EdgeInsets.zero,
       itemBuilder: ((context, index) {
         return const Padding(
           padding: EdgeInsets.symmetric(vertical: 4),
