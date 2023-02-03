@@ -10,9 +10,9 @@ class CustomButton extends StatelessWidget {
     return Container(
       height: 55,
       width: MediaQuery.of(context).size.width,
-      color: kPrimaryColor,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(8),
+        color: kPrimaryColor,
       ),
       child: const Center(
         child: Text(
